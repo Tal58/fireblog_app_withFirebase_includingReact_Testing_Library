@@ -58,7 +58,7 @@ SOLUTION
 
 Project aims to create a FireBlog App via FireBase Real Time Data Base and authentication. In addition, an api (https://restcountries.com/v3.1/all) including data of countries integrated to the project. Country datas fetched, configured and sent to the Firebase Realtime Database. Also the project contains like and comment button. The like button will increase the liked number and comment button add the comment to the list of comments.  All CRUD implementations are used on this project. Finally, in order to improve testing capabilities, some test implementations added to the components, test result is as follows;
 
-## 🖥️Desktop version (ADD operations on todo app-left side shows server)
+## 🖥️ Test Result
 <br>
 <img src="./images/testResult.jpg" align="left" alt="testResult">
 <br>
