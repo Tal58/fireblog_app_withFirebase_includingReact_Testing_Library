@@ -72,7 +72,7 @@ Project aims to create a FireBlog App via FireBase Real Time Data Base and authe
 <br>
 <br><br><br><br><br><br><br><br><br>
 
-<br><br><br><br><br>
+<br><br><br>
 ### At the end of the project, following topics are to be covered;
 
 - HTML
