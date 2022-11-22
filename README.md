@@ -1,4 +1,4 @@
-# FireBlog app via Firebase Data Base and authentication additional with API
+# FireBlog app via Firebase Data Base and authentication additional with API and React Testing Library
 
 ## Description
 
