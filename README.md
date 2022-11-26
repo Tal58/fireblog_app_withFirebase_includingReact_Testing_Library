@@ -36,6 +36,7 @@ SOLUTION
 |    |     ├── __test__
 |    |     ├── Card.jsx
 |    |     ├── CardDetails.jsx
+|    |     ├── CircularProgress.jsx
 |    |     ├── Dashboard.jsx
 |    |     ├── Images.jsx
 |    |     ├── Login.jsx
