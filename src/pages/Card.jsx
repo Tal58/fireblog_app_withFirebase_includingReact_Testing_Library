@@ -17,6 +17,7 @@ import { toastErrorNotify } from "../helper/ToastNotify";
 import images from "../assets/comment.gif"
 import heart from "../assets/heart.gif"
 import { useSelector } from "react-redux";
+import CircularColor from "./CircularProgress"
 export default function Cards({
   setProfile,
   setController,
@@ -85,7 +86,7 @@ export default function Cards({
         overflow: "hidden",
       }}
     >
-      {UserdataBase?.map((user, index) => (
+      {UserdataBase?.length ? (UserdataBase?.map((user, index) => (
         <Card data-testid={`follower-item-${index}`}
           key={user[0]}
           className={user[0]}
@@ -162,7 +163,9 @@ export default function Cards({
             </IconButton>
           </CardActions>
         </Card>
-      ))}
+      ))) : (
+        <CircularColor />
+      ) }
       {cardDetails && (
         <CardDetails
           cardDetails={cardDetails}
