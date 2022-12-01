@@ -20,6 +20,8 @@ import NewPost from "./NewPost";
 import Profile from "./Profile";
 import CardDetails from "./CardDetails";
 
+
+
 const settings = ["Profile", "New Post", "Logout"];
 
 function Dashboard() {
@@ -66,7 +68,8 @@ function Dashboard() {
     }
   };
 
- 
+
+
   return (
     <>
       <AppBar position="static" >
@@ -89,8 +92,7 @@ function Dashboard() {
               }}
             >
               FireBlogApp
-            </Typography>
-
+            </Typography>          
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -122,7 +124,7 @@ function Dashboard() {
                 ))}
               </Menu>
             </Box>
-          </Toolbar>
+          </Toolbar>          
         </Container>
       </AppBar>
       {profile && <Profile setProfile={setProfile} setController={setController} setCardController={setCardController} setCardDetails={setCardDetails}/>}

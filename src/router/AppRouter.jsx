@@ -5,7 +5,6 @@ import PrivateRouter from "./PrivateRouter";
 import Dashboard from "../pages/Dashboard";
 
 const AppRouter = () => {
-
   return (
 
     <Router>

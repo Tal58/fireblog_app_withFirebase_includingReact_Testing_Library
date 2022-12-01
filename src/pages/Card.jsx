@@ -18,6 +18,7 @@ import images from "../assets/comment.gif"
 import heart from "../assets/heart.gif"
 import { useSelector } from "react-redux";
 import CircularColor from "./CircularProgress"
+import ScrollButton from "./scroll_to_Top/scroll_To_Top";
 export default function Cards({
   setProfile,
   setController,
@@ -175,6 +176,7 @@ export default function Cards({
           setCardDetails={setCardDetails}
         />
       )}
+      <ScrollButton />
     </Box>
   );
 }
