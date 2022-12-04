@@ -20,8 +20,6 @@ import NewPost from "./NewPost";
 import Profile from "./Profile";
 import CardDetails from "./CardDetails";
 
-
-
 const settings = ["Profile", "New Post", "Logout"];
 
 function Dashboard() {
